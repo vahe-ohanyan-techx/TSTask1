@@ -5,7 +5,7 @@ function calculateArea(height: number, width: number): number {
 console.log(calculateArea(20, 30));
 
 const foo = (...nums: number[]): number => {
-  return nums.reduce((x, y) => x + y);
+  return nums.reduce((x, y) => x + y,0);
 };
 console.log(foo(1, 2, 3, 4, 5));
 
